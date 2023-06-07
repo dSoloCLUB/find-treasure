@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    display: inline-block;
+    font-size: 100px;
+    background: rgb(199, 26, 26);
+    background: linear-gradient(90deg, rgba(199, 26, 26, 1) 15%, rgba(56, 68, 227, 1) 56%, rgb(14, 109, 14) 100%);
+    font-family: 'Ruslan Display', cursive;
+    color: rgba(255, 228, 196, 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: 20px 0;
+}
+h2 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Ruslan Display', cursive;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.301);
+    display:inline-block;
+    padding: 20px;
+    color: #222;
+}
+
+#map {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    width: 100%;
+}
+
+body {
+    background-image: url("bg.jpeg");
+    text-align: center;
+}
+#pirate{
+    width: 45px;
+    position: absolute;
+    left: 65px;
+    top: 0;
+}
+.game{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
